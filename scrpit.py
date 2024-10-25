@@ -63,11 +63,6 @@ def register():
     bpy.utils.register_class(SAVE_SEND_PT_panel)
     bpy.utils.register_class(SaveAndSendOperator)
 
-# Отключение созданных классов
-def unregister():
-    bpy.utils.unregister_class(SAVE_SEND_PT_panel)
-    bpy.utils.unregister_class(SaveAndSendOperator)
-
 # Выполнение регистрации
 if __name__ == "__main__":
     register()
